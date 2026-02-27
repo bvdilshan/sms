@@ -18,6 +18,8 @@ builder.Services.Configure<MongoDbSettings>(
 // Register Data and Repository Layers
 builder.Services.AddSingleton<MongoDbContext>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<CourseService>();
 
 // Register Application Services
 builder.Services.AddScoped<StudentService>();
