@@ -1,0 +1,42 @@
+# .NET Build Artifacts
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE - Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Packages
+*.nupkg
+node_modules/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment & Secrets
+.env
+appsettings.Development.json
+# Note: Keep appsettings.json but don't commit real Atlas passwords!
